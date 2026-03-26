@@ -229,7 +229,7 @@ export default function Home() {
 
                 <Button
                   asChild
-                  variant="outline"
+                  variant="ghost"
                   size="lg"
                   className="border-2 border-white text-white hover:bg-white/10 rounded-lg font-semibold"
                 >
@@ -239,7 +239,7 @@ export default function Home() {
             </div>
 
             {/* Right Image */}
-            <div className="hidden md:block relative">
+            <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-green-700/30 to-transparent rounded-3xl blur-xl" />
               <Image
                 src="/images/profile-photo.png"
@@ -308,7 +308,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left Image */}
-            <div className="relative hidden md:block">
+            <div className="relative">
               <div className="sticky top-24">
                 <div className="absolute inset-0 bg-gradient-to-br from-red-400/20 to-green-700/20 rounded-3xl blur-2xl" />
                 <Image
