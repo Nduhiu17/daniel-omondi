@@ -199,7 +199,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div className="space-y-8">
+            <div className="space-y-8 order-last md:order-first">
               <div className="space-y-4">
                 <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight text-balance">
                   <span className="bg-gradient-to-r from-green-400 via-white to-red-400 bg-clip-text text-transparent">
@@ -239,7 +239,7 @@ export default function Home() {
             </div>
 
             {/* Right Image */}
-            <div className="relative">
+            <div className="relative order-first md:order-last">
               <div className="absolute inset-0 bg-gradient-to-r from-green-700/30 to-transparent rounded-3xl blur-xl" />
               <Image
                 src="/images/profile-photo.png"
@@ -308,7 +308,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left Image */}
-            <div className="relative">
+            <div className="relative order-first md:order-first">
               <div className="sticky top-24">
                 <div className="absolute inset-0 bg-gradient-to-br from-red-400/20 to-green-700/20 rounded-3xl blur-2xl" />
                 <Image
@@ -323,7 +323,7 @@ export default function Home() {
             </div>
 
             {/* Right Content */}
-            <div className="space-y-8">
+            <div className="space-y-8 order-last md:order-last">
               <div>
                 <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
                   <span className="bg-gradient-to-r from-black to-red-600 bg-clip-text text-transparent">
