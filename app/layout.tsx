@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Daniel Omondi for MCA | Ngando Ward Elections 2026',
+  title: 'Daniel Omondi for MCA | Ngando Ward Elections 2027',
   description: 'Vote Daniel Omondi for MCA Ngando Ward. Committed to leadership with integrity, improved infrastructure, youth empowerment, and community development.',
   generator: 'v0.app',
   icons: {

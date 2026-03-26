@@ -521,7 +521,7 @@ export default function Home() {
                 <span className="font-bold text-lg">Daniel Omondi</span>
               </div>
               <p className="text-gray-400">
-                MCA Candidate for Ngando Ward 2026
+                MCA Candidate for Ngando Ward 2027
               </p>
             </div>
 
